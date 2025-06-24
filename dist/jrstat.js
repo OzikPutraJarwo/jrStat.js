@@ -143,7 +143,6 @@ const jrStat = (function () {
       description: "Studentized Q Table for critical value with k, df, and α.\njrStat.studentq.inv(α, k, df)",
       example: "jrStat.studentq.inv(0.10, 2, 1) // 8.929",
       implementation: function (a, k, df) {
-        console.log(studentQDictionary[a][k][df]);
         return studentQDictionary[a][k][df];
       }
     }
