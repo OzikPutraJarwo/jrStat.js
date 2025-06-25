@@ -1,6 +1,8 @@
-// jrStat()
+jrStat()
 
-// jrStat.test.func()
+console.log("")
 
-console.log(jrStat.studentq.inv(0.0001, 95, 59))
-// jrStat.studentt.inv(0.95, 12)
+// (a, p, df)
+console.log("studentq : " + jrStat.studentq.inv(0.05, 7, 12))
+console.log("studentt : " + jrStat.studentt.inv(0.95, 12))
+console.log("tukey    : " + jrStat.tukey.inv(0.95, 7, 12))
