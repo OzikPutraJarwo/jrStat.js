@@ -2,4 +2,5 @@
 
 // jrStat.test.func()
 
-jrStat.studentq.inv(0.10, 3, 2)
+console.log(jrStat.studentq.inv(0.0001, 95, 59))
+// jrStat.studentt.inv(0.95, 12)
